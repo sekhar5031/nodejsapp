@@ -6,17 +6,17 @@ pipeline {
         echo 'building the website'
       }
     }
-     stage("build") {
+     stage("test") {
       steps {
         echo 'building the website'
       }
     }
-     stage("build") {
+     stage("delivery") {
       steps {
         echo 'building the website'
       }
     }
-     stage("build") {
+     stage("deploy") {
       steps {
         echo 'building the website'
       }
